@@ -159,7 +159,6 @@ export default function ProfileSummaryScreen() {
     <SafeAreaView style={styles.container}>
       <StatusBar
         barStyle="light-content"
-        backgroundColor={COLORS.background}
       />
 
       {loading ? (
